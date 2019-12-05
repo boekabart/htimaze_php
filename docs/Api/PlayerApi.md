@@ -55,7 +55,7 @@ void (empty response body)
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: Not defined
+ - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
@@ -104,7 +104,7 @@ This endpoint does not need any parameter.
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: text/plain, application/json, text/json, application/xml, text/xml
+ - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
@@ -131,7 +131,7 @@ $apiInstance = new Swagger\Client\Api\PlayerApi(
     new GuzzleHttp\Client(),
     $config
 );
-$name = "name_example"; // string | The name you wish to represent you in the leaderboard.
+$name = "name_example"; // string | The name you wish to represent you in the leader board.
 
 try {
     $apiInstance->register($name);
@@ -145,7 +145,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **name** | **string**| The name you wish to represent you in the leaderboard. | [optional]
+ **name** | **string**| The name you wish to represent you in the leader board. |
 
 ### Return type
 
@@ -158,7 +158,7 @@ void (empty response body)
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: Not defined
+ - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 

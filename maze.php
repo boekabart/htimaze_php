@@ -16,8 +16,13 @@ $mazesApi = new Swagger\Client\Api\MazesApi(
     $config
 );
 
+$mazeApi = new Swagger\Client\Api\MazeApi(
+    new GuzzleHttp\Client(),
+    $config
+);
+
 try {
-	$playerApi->forget();
+    $playerApi->forget();
     $result = $playerApi->register('bassie');
     print_r($result);
     $mazes = $mazesApi->all();
