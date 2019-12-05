@@ -1,0 +1,2 @@
+#!/bin/bash
+php maze.php "$MAZEKEY"
